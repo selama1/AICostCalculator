@@ -1,0 +1,8 @@
+{
+  "name": "Gemini Cost Estimator",
+  "description": "A developer-focused tool to estimate and analyze Gemini API call costs. Select a model, send a prompt with multi-modal attachments, and view detailed token usage, raw metadata, and estimated pricing.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
