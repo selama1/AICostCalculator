@@ -1,3 +1,4 @@
+
 # Gemini Cost Estimator
 
 A professional, developer-focused tool for estimating and analyzing Google Gemini API call costs. This tool allows you to select various Gemini models, provide multi-modal attachments, and receive a detailed breakdown of token usage, execution metadata, and estimated pricing.
@@ -16,24 +17,24 @@ A professional, developer-focused tool for estimating and analyzing Google Gemin
 ## Setup Instructions
 
 ### Prerequisites
-- Node.js installed.
+- Node.js (v18+) installed.
 - A valid Google Gemini API Key. You can get one at [Google AI Studio](https://aistudio.google.com/).
 
 ### Installation
-1. Clone the repository.
+1. Clone the repository or download the source files.
 2. Install dependencies:
    ```bash
    npm install
    ```
 
 ### Configuration
-The application requires an environment variable to authenticate with the Gemini API. 
+The application uses Vite and requires an environment variable to authenticate with the Gemini API. 
 
 1. Create a `.env.local` file in the root directory:
    ```bash
    touch .env.local
    ```
-2. Add your API key:
+2. Add your API key. Note: In this specific project, the configuration is mapped to `process.env.API_KEY`:
    ```env
    API_KEY=your_gemini_api_key_here
    ```
